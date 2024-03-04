@@ -1,35 +1,35 @@
 export const projects = [
   {
     title: "Amazing events",
-    subtitle: "JS, CSS",
+    subtitle: "JAVASCRIPT, HTLM, CSS, GIT",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Amaizing events es una pagina web sobre conciertos de musica, museos..Se trabajo con CSS, HTLM y JavaScript",
     image: "./amazing-events.png",
     link: "https://github.com/PatricioBalardini?tab=repositories",
   },
   {
     title: "Task List",
-    subtitle: "Bootstrap, React",
+    subtitle: "REACT, BOOTSTRAP, JAVA SCRIPT",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Task List es una lista de tareas. Se trabajo con React, Bootstrap, LocalStorage y Java Script",
     image: "./lista-tareas.png",
     link: "https://github.com/PatricioBalardini?tab=repositories",
   },
 
   {
     title: "My Itinerary",
-    subtitle: "SCSS, React, JS, MongoDB",
+    subtitle: "MERN, REACT, MONGO, NODE",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "My Itinerary es una aplicacion sobre lugares para conocer. Se trabajo con React, Mern, Mongo, Express, Node JS, Vite, Git, Postman y Tailwind",
     image: "./my-itinerary.png",
     link: "https://github.com/PatricioBalardini?tab=repositories",
   },
 
   {
-    title: "Juego TIC-TAC-TOE",
+    title: "TIC-TAC-TOE",
     subtitle: "React, JS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "TIC-TAC-TOE es el famoso juego de ceros y cruces. Se trabajo con React, JavaScrip, CSS, LocalStorage",
     image: "./tic-tac-toe.png",
     link: "https://github.com/PatricioBalardini?tab=repositories",
   },
@@ -53,16 +53,20 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "JavaScript",
-  "React.Js",
-  "CSS",
+  "HTLM5",
+  "CSS3",
   "SCSS",
-  "Node",
-  "HTLM",
+  "Git",
+  "JavaScript",
+  "React Js",
   "Vite",
   "Tailwind",
-  "Git",
+  "Mern",
+  "Node",
   "MongoDB",
-  "Scrum",
+  "Express",
+  "Postman",
+  "Tailwind",
+  "Bootstrap",
   "Figma",
 ];

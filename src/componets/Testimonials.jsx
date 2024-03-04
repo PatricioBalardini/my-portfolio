@@ -4,7 +4,7 @@ import { testimonials } from "../data/data";
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="quicksand">
+    <section id="testimonials">
       <div className="container px-5 py-10 mx-auto text-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"

@@ -4,7 +4,7 @@ import { skills } from "../data/data";
 
 export default function Skills() {
   return (
-    <section id="skills" className="quicksand">
+    <section id="skills">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <svg
@@ -25,7 +25,7 @@ export default function Skills() {
             Habilidades y Tecnologias
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Mis conocimientos se basan en HTML5, CSS3, JavaScript, React Js. 
+            Mis conocimientos se basan en HTML5, CSS3, JavaScript, Node y React Js.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

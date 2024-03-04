@@ -4,10 +4,7 @@ import { projects } from "../data/data.js";
 
 export default function Projects() {
   return (
-    <section
-      id="projects"
-      className="text-gray-400 bg-gray-900 body-font quicksand"
-    >
+    <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <svg
@@ -29,7 +26,8 @@ export default function Projects() {
             Proyectos
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-           Actualmente me encuentro trabajando en proyectos, aprendiendo cada día algo nuevo. 
+            Actualmente me encuentro trabajando en proyectos, aprendiendo cada
+            día algo nuevo.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
