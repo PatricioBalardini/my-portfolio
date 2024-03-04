@@ -1,32 +1,40 @@
+import "../app.css";
+
 import React from "react";
 
 export default function About() {
   return (
-    <section id="about">
+    <section id="about" className="quicksand">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hola, soy Patricio.
-            <br className="hidden lg:inline-block" /> Desarrolador web.
+            <br className="hidden lg:inline-block" />
+            Desarollador web.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit vero
-            accusamus quo, adipisci facere, aspernatur distinctio autem
-            repudiandae, nam aperiam voluptatum veniam iure natus saepe?
-            Possimus voluptates maiores amet accusamus?
+            Soy Patricio, un apasionado Desarrollador con una trayectoria de 12
+            años en el mundo de la gastronomía y una creciente dedicación a la
+            informática. Mi apasiona la naturaleza, la música y la buena comida
+            que se fusiona con mi entusiasmo por la programación. Creo que mi
+            experiencia en ambos campos me brinda una perspectiva para
+            contribuir a la creación de proyectos funcionales e innovadores.
+            Estoy emocionado por esta transición y ansioso por aplicar mis
+            habilidades y conocimientos en el ámbito de la tecnología.
           </p>
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+              className="inline-flex text-white bg-green-500 border-0 py-2 px-4 focus:outline-none hover:bg-green-600 rounded text-lg"
             >
-              Trabaja conmigo
+              Hablamos?
             </a>
             <a
               href="#projects"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
             >
-              Mira mis trabajos
+              {" "}
+              Mis trabajos
             </a>
           </div>
         </div>
@@ -34,7 +42,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./perfil.png"
+            src="./perfil.jpeg"
           />
         </div>
       </div>
