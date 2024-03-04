@@ -1,4 +1,4 @@
-import "../app.css";
+import "..App.css";
 
 import React from "react";
 
@@ -13,14 +13,15 @@ export default function About() {
             Desarollador Web.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Mi nombre es Patricio Balardini. Soy un apasionado Desarrollador con una trayectoria de 12
-            años en el mundo de la gastronomía y una creciente dedicación a la
-            informática. Me apasiona la naturaleza, la música y la buena comida
-            que se fusiona con mi entusiasmo por la programación. Creo que mi
-            experiencia en ambos campos me brinda una perspectiva para
-            contribuir a la creación de proyectos funcionales e innovadores.
-            Estoy emocionado por esta transición y ansioso por aplicar mis
-            habilidades y conocimientos en el ámbito de la tecnología.
+            Mi nombre es Patricio Balardini. Soy un apasionado Desarrollador con
+            una trayectoria de 12 años en el mundo de la gastronomía y una
+            creciente dedicación a la informática. Me apasiona la naturaleza, la
+            música y la buena comida que se fusiona con mi entusiasmo por la
+            programación. Creo que mi experiencia en ambos campos me brinda una
+            perspectiva para contribuir a la creación de proyectos funcionales e
+            innovadores. Estoy emocionado por esta transición y ansioso por
+            aplicar mis habilidades y conocimientos en el ámbito de la
+            tecnología.
           </p>
           <div className="flex justify-center">
             <a

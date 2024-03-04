@@ -1,4 +1,4 @@
-import "./app.css";
+import ".App.css";
 
 import React from "react";
 import About from "./componets/About.jsx";
