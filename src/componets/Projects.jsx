@@ -30,14 +30,14 @@ export default function Projects() {
             día algo nuevo.
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap m-4">
           {projects.map((project) => (
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4"
+              className="sm:w-1/2 w-100 p-4 min-h-[400px]"
             >
-              <div className="flex relative">
+              <div className="flex relative h-full">
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"

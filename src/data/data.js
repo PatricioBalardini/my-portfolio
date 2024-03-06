@@ -1,11 +1,19 @@
 export const projects = [
   {
+    title: "My Itinerary",
+    subtitle: "MERN, REACT, MONGO, NODE",
+    description:
+      "My Itinerary es una aplicacion sobre lugares para conocer. Se trabajo con React, Mern, Mongo, Express, Node JS, Vite, Git, Postman y Tailwind",
+    image: "./my-itinerary.png",
+    link: "https://my-tinerary-weld.vercel.app/",
+  },
+  {
     title: "Amazing events",
     subtitle: "JAVASCRIPT, HTLM, CSS, GIT",
     description:
       "Amaizing events es una pagina web sobre conciertos de musica, museos..Se trabajo con CSS, HTLM y JavaScript",
     image: "./amazing-events.png",
-    link: "https://github.com/PatricioBalardini?tab=repositories",
+    link: "https://amazing-events-mu.vercel.app/",
   },
   {
     title: "Task List",
@@ -17,21 +25,12 @@ export const projects = [
   },
 
   {
-    title: "My Itinerary",
-    subtitle: "MERN, REACT, MONGO, NODE",
-    description:
-      "My Itinerary es una aplicacion sobre lugares para conocer. Se trabajo con React, Mern, Mongo, Express, Node JS, Vite, Git, Postman y Tailwind",
-    image: "./my-itinerary.png",
-    link: "https://github.com/PatricioBalardini?tab=repositories",
-  },
-
-  {
     title: "TIC-TAC-TOE",
     subtitle: "React, JS",
     description:
       "TIC-TAC-TOE es el famoso juego de ceros y cruces. Se trabajo con React, JavaScrip, CSS, LocalStorage",
     image: "./tic-tac-toe.png",
-    link: "https://github.com/PatricioBalardini?tab=repositories",
+    link: "https://tic-tac-toe-three-silk-90.vercel.app/",
   },
 ];
 
